@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/olegognevoi/RiderProjects/my-csharp-tutorial/mediatr/mediatr.csproj": {}
+  },
+  "projects": {
+    "/Users/olegognevoi/RiderProjects/my-csharp-tutorial/mediatr/mediatr.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/olegognevoi/RiderProjects/my-csharp-tutorial/mediatr/mediatr.csproj",
+        "projectName": "mediatr",
+        "projectPath": "/Users/olegognevoi/RiderProjects/my-csharp-tutorial/mediatr/mediatr.csproj",
+        "packagesPath": "/Users/olegognevoi/.nuget/packages/",
+        "outputPath": "/Users/olegognevoi/RiderProjects/my-csharp-tutorial/mediatr/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/olegognevoi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cargoodev.pkgs.visualstudio.com/Cargoo_V2/_packaging/Cargoo_Utils/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
